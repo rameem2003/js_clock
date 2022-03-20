@@ -12,7 +12,7 @@ function clock(){
         day.innerHTML = "AM";
     }
     
-    else if(hour > 12){
+    else if(hour => 12){
         hour = hour - 12;
         day.innerHTML = "PM";
     }
