@@ -11,7 +11,9 @@ function clock(){
     
     if(hour == 0){
         hour = 12;
-        timeFormate.innerHTML = "AM"
+    }
+    if(hour < 12){
+        timeFormate.innerHTML = "AM";
     }
     if(hour > 12){
         hour = hour - 12;
