@@ -11,14 +11,16 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: darkblue;
+    background-image: url("./img/mourning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #clock_body{
     text-align: center;
     width: 645px;
     padding: 20px;
-    background-color: black;
+    background-color: #0000009c;
     border-radius: 8px;
     font-size: 50px;
     color: white;

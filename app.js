@@ -5,6 +5,19 @@ function clock(){
     var minute = date.getMinutes();
     var second = date.getSeconds();
     var timeFormate = document.getElementById("timeFormate");
+    var root = document.getElementById("root");
+
+
+    // if block for background change according to time
+    if(hour > 6 && hour < 12){
+        root.style.backgroundImage = "url('./img/mourning.jpg')";
+    }
+    else if(hour >= 12 && hour <= 16){
+        root.style.backgroundImage = "url('./img/noon.jpg')";
+    }
+    else if(hour > 19){
+        root.style.backgroundImage = "url('./img/night.png')";
+    }
 
 
     // if block for when the time is 12 am & 12pm
