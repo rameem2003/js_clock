@@ -15,6 +15,14 @@ function clock(){
     else if(hour >= 12 && hour <= 16){
         root.style.backgroundImage = "url('./img/noon.jpg')";
     }
+
+    else if(hour >= 16 && hour <=17){
+        root.style.backgroundImage = "url('./img/bikal.jpg')"
+    }
+    else if(hour >=17 && hour <= 18){
+        root.style.backgroundImage = "url('./img/evining.jpg')"
+    }
+
     else if(hour > 19){
         root.style.backgroundImage = "url('./img/night.png')";
     }
