@@ -7,10 +7,20 @@ ___
 
 <br>
 
-### My website: rameem2003.github.io/rameem.me
+### My website: 
+```
+https://rameem2003.github.io/rameem.me
+```
+
+### To visit this site
+```
+https://rameem2003.github.io/js_clock
+```
 
 <br>
 
+# App interface
+![view](./img/view.png)
 
 
 ## Task List
